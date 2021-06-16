@@ -1,0 +1,230 @@
+/*** default css ***/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto; 
+}
+body {
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img {
+    max-width: 100%;
+}
+p {
+    color: black;
+}
+
+/*** this style for header area ***/
+header.header-area {
+    display: flex;
+    margin: 0 80px;
+    padding: 8px 0;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/*** this style for logo ***/
+.logo a {
+    float: left;
+    padding-left: 50px;
+}
+.logo a img {
+    width: 40px;
+}
+
+/*** this style for nav-item ***/
+.nav-item ul {
+    display: flex;
+    margin: 0;
+    padding-right: 50px;
+    list-style: none;
+    float: right;
+}
+.nav-item ul li a {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    padding: 0 10px;
+}
+.nav-item ul li a:hover {
+    background: #17B16D;
+    color: white;
+    border-radius: 13px;
+}
+button.btn.btn-primary {
+    background: #17B16D;
+}
+
+/*** this style for content section ***/
+.content-sec {
+    margin: 32px 0;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    padding: 90px 0px 90px 50px;
+    text-align: justify;
+}
+.content h2 {
+    font-size: 42px;
+}
+.content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #17B16D;
+}
+.content p {
+    margin-bottom: 16px;
+}
+.img-sec img {
+    width: 470px;
+}
+
+/*** this style for about section ***/
+section.about-sec {
+    margin-top: 135px;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+}
+.about h4 {
+    color: #17B16D;
+}
+.about h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+.about a {
+    width: 165px;
+    padding: 13px 20px;
+    background-color: #17B16D;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/*** this style for cart section ***/
+.cart-sec {
+    margin: 80px 32px 32px;
+}
+.title h2 {
+    font-size: 32px;
+    color: #17B16D;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.card {
+    width: 350px;
+    height: 540px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 20px rgb(0 0 0 / 10%);
+    cursor: pointer;
+}
+.card-img {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+h2.card-title {
+    padding: 12px 16px;
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+}   
+h2.price {
+    padding: 12px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #17b16d;
+}
+.description p {
+    padding: 0 12px;
+    text-align: justify;
+    font-size: 15px;
+    margin: 0px 0px 16px;
+} 
+.card button.btn.btn-primary {
+    width: 140px;
+    padding: 12px 20px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: auto;
+}
+img.card-img-top.img_card {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+h2.card_title {
+    padding: 12px 16px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #17B16D;
+}
+h2.dolor {
+    padding: 12px;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+/*** this style for footer section ***/
+.footer-sec{
+    color: white;
+    background: #17B16D;
+    margin: 96px 0px 0px;
+    padding: 48px 32px;
+}
+.links h3{
+    line-height: 2;
+}
+.links ul li {
+    list-style: none;
+}
+.links ul li a{
+    line-height: 2;
+    color: white;
+    text-decoration: none;
+}
+.email {
+    margin-top: 65px;
+}
+.email h4 {
+    font-size: 24px;
+}
+.email input {
+    padding: 8px 16px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+}
+.copyright p {
+    text-align: center;
+}
+.copyright a {
+    color: white !important;
+}
